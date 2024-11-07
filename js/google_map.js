@@ -15,7 +15,62 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         center: myLatlng,
-
+        <div class="row row-pb-md">
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>HTML5</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>CSS3</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>jQuery</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>JavaScript</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>TypeScript</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>WordPress</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>Wix</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>Bootstrap</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>Tailwind</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>Angular</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>React</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>NextJs</strong>100%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="90"><span><strong>NodeJs</strong>90%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="80"><span><strong>ExpressJs</strong>80%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="80"><span><strong>.NET</strong>80%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="80"><span><strong>MySql</strong>80%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="70"><span><strong>MongoDB</strong>70%</span></div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+            <div class="chart" data-percent="100"><span><strong>Redux</strong>100%</span></div>
+        </div>
+    </div>
         // How you would like to style the map. 
         scrollwheel: false,
         styles: [{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"hue":"#f49935"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"hue":"#fad959"}]},{"featureType":"road.arterial","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.local","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"hue":"#a1cdfc"},{"saturation":30},{"lightness":49}]}]
