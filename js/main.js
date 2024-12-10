@@ -325,5 +325,21 @@
 		// pieChart();
 		skillsWayPoint();
 	});
-
+	$(function(){
+		contentWayPoint();
+		goToTop();
+		loaderPage();
+		fullHeight();
+		parallax();
+		// pieChart();
+		skillsWayPoint();
+	});$(function(){
+		contentWayPoint();
+		goToTop();
+		loaderPage();
+		fullHeight();
+		parallax();
+		// pieChart();
+		skillsWayPoint();
+	});
 }());
