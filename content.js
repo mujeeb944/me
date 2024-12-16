@@ -1042,6 +1042,39 @@ const RandomCounter = () => {
         ))}
       </ul>
     </div>
+    <div style={containerStyle}>
+      <h1>To-Do App</h1>
+      <div style={inputContainerStyle}>
+        <input
+          type="text"
+          placeholder="Add a new task..."
+          value={newTask}
+          onChange={(e) => setNewTask(e.target.value)}
+          style={inputStyle}
+        />
+        <button onClick={addTask} style={buttonStyle}>
+          Add Task
+        </button>
+      </div>
+      <ul style={listStyle}>
+        {tasks.map((task) => (
+          <li
+            key={task.id}
+            style={{
+              ...listItemStyle,
+              textDecoration: task.completed ? 'line-through' : 'none',
+            }}
+          >
+            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+              {task.text}
+            </span>
+            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+              Delete
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
         <button onClick={increment} style={buttonStyle}>
