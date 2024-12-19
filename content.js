@@ -1162,6 +1162,12 @@ const RandomCounter = () => {
         <button onClick={randomize} style={buttonStyle}>
           Randomize
         </button>
+        <button onClick={randomize} style={buttonStyle}>
+          Randomize
+        </button>
+        <button onClick={randomize} style={buttonStyle}>
+          Randomize
+        </button>
       </div>
     </div>
   );
