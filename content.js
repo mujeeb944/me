@@ -1172,7 +1172,7 @@ const RandomCounter = () => {
           test it
         </button>
         <button onClick={randomize} style={buttonStyle}>
-          test
+          test test
         </button>
       </div>
     </div>
