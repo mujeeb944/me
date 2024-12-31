@@ -12,58 +12,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -101,58 +101,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -190,58 +190,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -279,58 +279,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -368,58 +368,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -457,58 +457,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -546,58 +546,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -635,58 +635,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -724,58 +724,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -813,58 +813,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -902,58 +902,58 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -991,161 +991,161 @@ const RandomCounter = () => {
       <h1>Random Counter</h1>
       <h2>{count}</h2>
       <div>
-  
-  export default RandomCounter;
-  
+
+        export default RandomCounter;
+
   // Toggle task completion
   const toggleTask = (id) => {
-    setTasks(
-      tasks.map((task) =>
-        task.id === id ? { ...task, completed: !task.completed } : task
-      )
-    );
+          setTasks(
+            tasks.map((task) =>
+              task.id === id ? { ...task, completed: !task.completed } : task
+            )
+          );
   };
 
   // Delete a task
   const deleteTask = (id) => {
-    setTasks(tasks.filter((task) => task.id !== id));
+          setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  return (
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+        return (
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-    <div style={containerStyle}>
-      <h1>To-Do App</h1>
-      <div style={inputContainerStyle}>
-        <input
-          type="text"
-          placeholder="Add a new task..."
-          value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          style={inputStyle}
-        />
-        <button onClick={addTask} style={buttonStyle}>
-          Add Task
-        </button>
-      </div>
-      <ul style={listStyle}>
-        {tasks.map((task) => (
-          <li
-            key={task.id}
-            style={{
-              ...listItemStyle,
-              textDecoration: task.completed ? 'line-through' : 'none',
-            }}
-          >
-            <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
-              {task.text}
-            </span>
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div style={containerStyle}>
+          <h1>To-Do App</h1>
+          <div style={inputContainerStyle}>
+            <input
+              type="text"
+              placeholder="Add a new task..."
+              value={newTask}
+              onChange={(e) => setNewTask(e.target.value)}
+              style={inputStyle}
+            />
+            <button onClick={addTask} style={buttonStyle}>
+              Add Task
             </button>
+          </div>
+          <ul style={listStyle}>
+            {tasks.map((task) => (
+              <li
+                key={task.id}
+                style={{
+                  ...listItemStyle,
+                  textDecoration: task.completed ? 'line-through' : 'none',
+                }}
+              >
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
 
-            <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-              Delete
-            </button>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+        );
 };
         <button onClick={increment} style={buttonStyle}>
           Increment
@@ -1158,6 +1158,9 @@ const RandomCounter = () => {
         </button>
         <button onClick={decrement} style={buttonStyle}>
           Decrement
+          <button onClick={decrement} style={buttonStyle}>
+            Decrement
+          </button>
         </button>
         <button onClick={randomize} style={buttonStyle}>
           Randomize
