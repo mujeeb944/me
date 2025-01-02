@@ -1150,30 +1150,6 @@ const RandomCounter = () => {
         <button onClick={increment} style={buttonStyle}>
           Increment
         </button>
-        <button onClick={increment} style={buttonStyle}>
-          Increment
-        </button>
-        <button onClick={increment} style={buttonStyle}>
-          Increment
-        </button>
-        <button onClick={decrement} style={buttonStyle}>
-          Decrement
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          Randomize
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          Randomize
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          test it now
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          test it
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          test test
-        </button>
       </div>
     </div>
   );
