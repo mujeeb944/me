@@ -1145,8 +1145,6 @@ const RandomCounter = () => {
             ))}
           </ul>
         </div>
-        );
-};
         <button onClick={increment} style={buttonStyle}>
           Increment
         </button>
