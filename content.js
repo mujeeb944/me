@@ -1137,6 +1137,12 @@ const RandomCounter = () => {
                 <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
                   Delete
                 </button>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
+                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
+                  Delete
+                </button>
 
                 <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
                   Delete
