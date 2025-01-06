@@ -1134,9 +1134,6 @@ const RandomCounter = () => {
                 <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
                   {task.text}
                 </span>
-                <button onClick={() => deleteTask(task.id)} style={deleteButtonStyle}>
-                  Delete
-                </button>
               </li>
             ))}
           </ul>
