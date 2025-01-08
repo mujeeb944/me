@@ -1158,6 +1158,33 @@ const RandomCounter = () => {
                   {task.text}
                 </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
                   {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span>
+                <span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
+                </span><span onClick={() => toggleTask(task.id)} style={taskTextStyle}>
+                  {task.text}
                 </span>
               </li>
             ))}
