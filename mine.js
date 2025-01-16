@@ -691,10 +691,7 @@ const RandomCounter = () => {
         <button onClick={increment} style={buttonStyle}>
           Increment
         </button>
-        
         <button onClick={decrement} style={buttonStyle}>
-          Decrement
-        </button><button onClick={decrement} style={buttonStyle}>
           Decrement
         </button>
         <button onClick={randomize} style={buttonStyle}>
