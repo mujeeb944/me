@@ -688,19 +688,6 @@ const RandomCounter = () => {
     </div>
   );
 };
-        <button onClick={increment} style={buttonStyle}>
-          Increment
-        </button>
-        <button onClick={decrement} style={buttonStyle}>
-          Decrement
-        </button>
-        <button onClick={randomize} style={buttonStyle}>
-          Randomize
-        </button>
-      </div>
-    </div>
-  );
-};
 
 const buttonStyle = {
   margin: '5px',
