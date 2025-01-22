@@ -166,8 +166,6 @@ const RandomCounter = () => {
       </div>
     </div>
   );
-};  <button onClick={increment} style={buttonStyle}>
-);
 };
 
 const buttonStyle = {
