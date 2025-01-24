@@ -168,11 +168,4 @@ const RandomCounter = () => {
   );
 };
 
-const buttonStyle = {
-  margin: '5px',
-  padding: '10px 20px',
-  fontSize: '16px',
-  cursor: 'pointer',
-};
-
 export default RandomCounter;
